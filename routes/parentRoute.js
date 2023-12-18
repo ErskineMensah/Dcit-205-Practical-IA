@@ -1,7 +1,7 @@
 // routes/patientRoutes.js
 const express = require('express');
 const bodyParser = require('body-parser');
-const Patient = require('../models/Patient'); // Adjust the path based on your project structure
+const Patient = require('./models/Patient'); 
 
 const router = express.Router();
 router.use(bodyParser.json());
